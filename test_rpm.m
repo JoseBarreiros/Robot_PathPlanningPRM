@@ -110,7 +110,8 @@ while i<=N
 
         Dist=exp(-(Ymat-U1).^2/(2*D1^2)-(Xmat-U2).^2/(2*D2^2));  
 
-        %retrieve a number from a customized PDF Dist
+        %retrieve a number from a customized PDF Dist usign the function
+        %Pinky() from Tristan Ursell (https://goo.gl/2ySv13)
         
         [t1 t2]=pinky(Xin,Yin,Dist); 
         
